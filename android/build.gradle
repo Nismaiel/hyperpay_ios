@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 33
 
-    namespace 'com.yourcompany.hyperpayplugin_stub' // Add this line
+    namespace "com.yourcompany.hyperpayplugin_stub"
 
     defaultConfig {
         minSdkVersion 21
