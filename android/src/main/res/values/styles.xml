@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--    DEFAULT COLORS YOU CAN OVERRIDE IN YOUR APP-->
-    <style name="NewCheckoutTheme" parent="Theme.Checkout.Light">
-        <item name="headerBackground">#FF00122D</item>
-        <item name="fontFamily">@font/pingregular</item>
-        <item name="cancelButtonTintColor">@color/cancelButtonTintColor</item>
-        <item name="listMarkTintColor">@color/listMarkTintColor</item>
-        <item name="cameraTintColor">@color/cameraTintColor</item>
-        <item name="checkboxButtonTintColor">@color/checkboxButtonTintColor</item>
-        <item name="checkoutButtonStyle">@style/NewCheckoutTheme.Button</item>
-        <item name="checkoutProgressBarStyle">@style/NewCheckoutTheme.checkoutProgressBarStyle</item>
-        <item name="checkoutEditTextStyle">@style/NewCheckoutTheme.EditText</item>
-        <item name="checkoutHelperTextViewStyle">@style/NewCheckoutTheme.HelperTextView</item>
-    </style>
+   
 
     <!-- EditText Style -->
     <style name="NewCheckoutTheme.EditText" parent="Checkout.EditText">
@@ -39,9 +27,7 @@
 
     </style>
 
-    <style name="NewCheckoutTheme.checkoutProgressBarStyle" parent="Checkout.Progress">
-        <item name="android:indeterminateTint">@color/headerBackground</item>
-    </style>
+ 
 
     <!--    DEFAULT COLORS YOU CAN OVERRIDE IN YOUR APP-->
     <color name="checkoutProgressBarStyle">#214282</color>
