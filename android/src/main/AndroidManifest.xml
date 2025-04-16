@@ -28,15 +28,7 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
-        <!-- Don't delete the meta-data below.
-             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
-        <activity
-            android:name="com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity"
-            android:configChanges="orientation"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustPan"
-            tools:replace="android:windowSoftInputMode" />
+        
 
              
         
@@ -44,9 +36,7 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-        <receiver
-            android:name=".CheckoutBroadcastReceiver"
-            android:exported="false" />
+       
 
 
     </application>
