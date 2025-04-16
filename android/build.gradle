@@ -2,8 +2,11 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
+
+    namespace 'com.excprotection.payment' // Add this line
+
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 33
     }
 }
