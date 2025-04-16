@@ -16,9 +16,7 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
-        flatDir {
-            dirs project(':hyperpay_plugin').file('libs')
-        }
+       
     }
 }
 
@@ -41,7 +39,6 @@ android {
 dependencies {
  
     implementation "com.google.android.material:material:1.7.0"
-    implementation "androidx.appcompat:appcompat:1.5.1"
-    implementation 'com.google.android.gms:play-services-wallet:19.1.0'
+     implementation 'com.google.android.gms:play-services-wallet:19.1.0'
     implementation "androidx.browser:browser:1.4.0"
 }
