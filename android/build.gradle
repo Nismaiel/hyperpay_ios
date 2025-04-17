@@ -9,4 +9,16 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
     }
+
+    buildTypes {
+        release {
+            // Disable resource shrinking to ensure custom attributes aren’t removed
+            shrinkResources false
+            // Disable code minification for troubleshooting purposes
+            minifyEnabled false
+
+            // Optionally, define ProGuard rules if needed in the future:
+            // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
 }
