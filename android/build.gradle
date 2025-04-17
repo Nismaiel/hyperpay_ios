@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.excprotection.payment'
 
 android {
     compileSdkVersion 33
