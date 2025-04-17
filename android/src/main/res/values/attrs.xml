@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="headerBackground" format="color" />
-    <attr name="fontFamily" format="string" />
+    <attr name="fontFamily" format="reference" />
     <attr name="cancelButtonTintColor" format="color" />
     <attr name="listMarkTintColor" format="color" />
     <attr name="cameraTintColor" format="color" />
