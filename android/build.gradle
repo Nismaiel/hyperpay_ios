@@ -9,6 +9,9 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
     }
+       sourceSets {
+        main.res.srcDirs += 'src/main/res'
+    }
 
     buildTypes {
         release {
