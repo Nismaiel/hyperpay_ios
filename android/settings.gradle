@@ -1,1 +1,3 @@
 rootProject.name = 'payment'
+include ':hyperpay_ios'
+project(':hyperpay_ios').projectDir = new File(rootDir, 'hyperpay_ios/android')
