@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr name="headerBackground" format="color" />
-    <attr name="fontFamily" format="reference" /> <!-- or "string", as needed -->
-    <attr name="cancelButtonTintColor" format="color" />
-    <attr name="listMarkTintColor" format="color" />
-    <attr name="cameraTintColor" format="color" />
-    <attr name="checkboxButtonTintColor" format="color" />
-    <attr name="checkoutButtonStyle" format="reference" />
-    <attr name="checkoutProgressBarStyle" format="reference" />
-    <attr name="checkoutEditTextStyle" format="reference" />
-    <attr name="checkoutHelperTextViewStyle" format="reference" />
-</resources>
+
